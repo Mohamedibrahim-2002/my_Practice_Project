@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <style>
+            * {
+                background:url(./bg_image.jpg) center no-repeat fixed ;
+                background-size: cover;
+               
+            
+                background-origin: content-box, padding-box;
+            }
+            .text {
+                color: aqua;
+            }
+            h6 {
+                color: red;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            button{
+                color: rgb(185, 98, 144);
+                border-radius: 2px;
+                border-width: 1px;
+            }
+            div {
+                margin: 0% auto;
+                margin-top: 250px;
+                margin-left: 550px;
+            }
+        </style>
+        <body>
+            <div>
+
+                <p class="text">This is my first practice sesion</p>
+                <h6>Hello How are you?</h6>
+                 <button onclick="colchange()">click</button>
+                 
+            </div>
+           
+            <script>
+                function colchange()
+                {
+                    if(document.querySelector(".text").style.color==="aqua")
+                    {
+                        document.querySelector(".text").style.color="red";
+                    }
+                    else{
+                        document.querySelector(".text").style.color="aqua";
+                    }
+
+                }
+            </script>
+            </body>
+    </head>
+</html>

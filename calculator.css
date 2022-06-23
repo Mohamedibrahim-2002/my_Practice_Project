@@ -1,0 +1,35 @@
+
+input[type="button"]
+{
+width:100%;
+color:rgb(0, 0, 0);
+background-color:rgb(243, 241, 101);
+
+}
+*
+{
+    /*background: url(./Desktop.png) no-repeat center fixed;
+    background-size: cover;*/
+}
+table
+{
+    margin: 0 auto;
+   margin-top: 20px;
+    border: 6px solid black;
+    border-radius: 4px;
+    border-color: brown;
+    padding: 2px;
+   
+}
+h1{
+    margin: 0 auto;
+   text-align: center;
+   margin-top: 200px;
+   /*background: linear-gradient(to top right, #33ccff 0%, #ff99cc 100%);*/
+   
+   
+}
+* {
+    background: radial-gradient( #33ccff , #ff99cc);
+
+}
